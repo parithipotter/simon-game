@@ -1,2 +1,2 @@
 # simon-game
-Simon Game using JQuery 
+Simon Game using JQuery - Desktop version 
