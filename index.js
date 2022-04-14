@@ -4,7 +4,7 @@ var started = false;
 var userClickPatter = [];
 var level = 0;
 
-$(document).keypress(function () { 
+$(".button1").click(function () { 
     if(!started){
         $("#level-title").text("Level "+level);
         newSequence();
@@ -89,4 +89,7 @@ function Restart(){
     level = 0;
     gamePattern = [];
     started = false;
+    $(".button1").text("Restart");
+    var button = $(".button1");
+    button.addClass("restart");
 }
